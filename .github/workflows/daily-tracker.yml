@@ -26,8 +26,8 @@ jobs:
       - name: Randomly Generate & Commit Data
         run: |
           # Set Git user to YOUR email so commits attribute to your profile graph
-          git config --local user.email "YOUR_GITHUB_EMAIL@example.com"
-          git config --local user.name "Your Name"
+          git config --local user.email "AbrehamBlog@gmail.com"
+          git config --local user.name "AbrshSim"
 
           # Pick a random number of commits between 1 and 6 for today
           NUM_COMMITS=$((1 + RANDOM % 6))
